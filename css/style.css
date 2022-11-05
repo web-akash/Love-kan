@@ -1,0 +1,62 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.container {
+  width: 868px;
+  margin: 0 auto;
+}
+@font-face {
+  font-family: HiraKakuStd;
+  src: url(../font/HiraKakuStd-W8.otf);
+}
+@font-face {
+  font-family: HiraginoKaku;
+  src: url(../font/Hiragino\ Kaku\ Gothic\ Std\ W8.otf);
+}
+
+/* common part start */
+
+/* ===================
+    Banner part start
+===================== */
+#banner {
+  background-image: url("../images/banner.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  position: relative;
+}
+#banner picture {
+  position: absolute;
+  bottom: 176px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+#banner h2 {
+  padding-top: 249px;
+  width: 690px;
+  margin: 0 auto;
+  font-family: HiraginoKaku;
+  font-size: 32pt;
+  line-height: 50pt;
+  color: #ffff;
+  text-align: center;
+  font-weight: 400;
+}
+#banner h1 {
+  padding-top: 67px;
+  padding-bottom: 553px;
+  text-align: center;
+  font-weight: 600;
+  margin: 0 auto;
+  font-family: HiraKakuStd;
+  margin: 0 auto;
+  width: 780px;
+  font-size: 64pt;
+  line-height: 80pt;
+  color: #ffff;
+}
+/* ===================
+    Banner part end
+===================== */
