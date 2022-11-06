@@ -1,10 +1,21 @@
 * {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
 }
 .container {
   width: 868px;
   margin: 0 auto;
+}
+ul,
+li {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+}
+mark {
+  background-color: #fbcfd0;
 }
 @font-face {
   font-family: HiraKakuStd;
@@ -16,7 +27,7 @@
 }
 @font-face {
   font-family: HiraKakuPro;
-  src: url(../font/HiraKakuPro-W3.otf);
+  src: url(../font/Hira\ Kaku\ Pro\ W6.otf);
 }
 @font-face {
   font-family: futura;
@@ -63,6 +74,21 @@ html body {
   font-size: 16pt;
   background-color: #fbcfd0;
 }
+.top-heading {
+  position: absolute;
+  top: -37px;
+
+  left: 35px;
+  background-color: #00fdff;
+  font-size: 18px;
+  font-family: HiraKakuPro;
+  padding: 17px 62px;
+  border: 3px solid black;
+  box-shadow: 5px 5px 0px 0px rgba(179, 179, 179, 0.75);
+  -webkit-box-shadow: 5px 5px 0px 0px rgba(179, 179, 179, 0.75);
+  -moz-box-shadow: 5px 5px 0px 0px rgba(179, 179, 179, 0.75);
+}
+
 /* common part end */
 
 /* ===================
@@ -244,4 +270,83 @@ html body {
 }
 /* ===================
     About part end
+===================== */
+/* ===================
+    Entery part start
+===================== */
+#entry {
+  padding-bottom: 80px;
+}
+#entry .entry-list {
+  font-family: HiraKakuPro;
+  font-size: 16pt;
+  line-height: 20pt;
+  border: 3px solid rgba(179, 179, 179, 0.592);
+  margin-top: 109px;
+  padding-top: 68px;
+  position: relative;
+  padding-bottom: 20px;
+  -webkit-box-shadow: 0px 0px 13px 0px rgba(179, 179, 179, 0.7);
+  -moz-box-shadow: 0px 0px 13px 0px rgba(179, 179, 179, 0.7);
+  box-shadow: 0px 0px 13px 0px rgba(179, 179, 179, 0.7);
+}
+
+#entry .entry-list li {
+  margin-bottom: 40px;
+  margin-left: 50px;
+  position: relative;
+}
+#entry .item-all {
+  display: flex;
+  justify-content: space-between;
+}
+#entry .entry-list li::after {
+  position: absolute;
+  bottom: -20px;
+  left: 0;
+  border: 1px solid #b3b3b399;
+  content: "";
+  width: 93%;
+}
+
+#entry .item-all .item {
+  text-align: center;
+  border: 2pt solid black;
+  margin-top: 70px;
+  position: relative;
+  width: 277px;
+}
+#entry .item-all .item picture {
+  margin-top: 27px;
+  margin-bottom: 38px;
+  display: block;
+}
+#entry .item-all .item .item-titel {
+  font-size: 37pt;
+  font-family: futura;
+  font-weight: 400;
+  margin-top: 60px;
+  margin-bottom: 28px;
+}
+#entry .item-all .item .item-titel mark {
+  color: #e7458a;
+}
+#entry .item-all .item h3 {
+  font-size: 18.6pt;
+  font-weight: 400;
+  font-family: HiraKakuPro;
+  margin-bottom: 12px;
+}
+#entry .item-all .item p {
+  font-size: 14px;
+  font-family: HiraKakuPro;
+  line-height: 20pt;
+}
+#entry .item-all .item .top-heading {
+  top: -45px;
+  left: 16px;
+}
+
+/* ===================
+    Enter part end
 ===================== */
