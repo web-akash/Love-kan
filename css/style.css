@@ -1,7 +1,6 @@
 * {
   margin: 0;
   padding: 0;
-  box-sizing: border-box;
 }
 .container {
   width: 868px;
@@ -44,6 +43,9 @@ html body {
   padding: 34px 0;
   text-align: center;
   margin: 0 auto;
+  -webkit-box-shadow: 7px 7px 0px 2px rgba(179, 179, 179, 1);
+  -moz-box-shadow: 7px 7px 0px 2px rgba(179, 179, 179, 1);
+  box-shadow: 7px 7px 0px 2px rgba(179, 179, 179, 1);
 }
 .button span {
   font-size: 24pt;
@@ -77,18 +79,18 @@ html body {
 .top-heading {
   position: absolute;
   top: -37px;
-
+  width: 245px;
   left: 35px;
+  text-align: center;
   background-color: #00fdff;
   font-size: 18px;
   font-family: HiraKakuPro;
-  padding: 17px 62px;
+  padding: 17px 0;
   border: 3px solid black;
   box-shadow: 5px 5px 0px 0px rgba(179, 179, 179, 0.75);
   -webkit-box-shadow: 5px 5px 0px 0px rgba(179, 179, 179, 0.75);
   -moz-box-shadow: 5px 5px 0px 0px rgba(179, 179, 179, 0.75);
 }
-
 /* common part end */
 
 /* ===================
@@ -292,6 +294,7 @@ html body {
 }
 
 #entry .entry-list li {
+  font-family: HiraKakuPro;
   margin-bottom: 40px;
   margin-left: 50px;
   position: relative;
@@ -308,13 +311,25 @@ html body {
   content: "";
   width: 93%;
 }
-
+#entry .entry-list li span {
+  margin-right: 23px;
+}
+#entry .entry-list li:nth-child(odd) mark {
+  color: #e7458a;
+}
+#entry .entry-list li:nth-child(odd) span {
+  color: #e7458a;
+}
+#entry .entry-list li span {
+  background-color: #fbcfd0;
+}
 #entry .item-all .item {
   text-align: center;
   border: 2pt solid black;
   margin-top: 70px;
   position: relative;
   width: 277px;
+  padding-bottom: 32px;
 }
 #entry .item-all .item picture {
   margin-top: 27px;
@@ -341,12 +356,114 @@ html body {
   font-size: 14px;
   font-family: HiraKakuPro;
   line-height: 20pt;
+  text-align: left;
+  margin-left: 30px;
 }
 #entry .item-all .item .top-heading {
   top: -45px;
-  left: 16px;
+  left: 12px;
+}
+#entry .button {
+  margin-top: 80px;
+  margin-bottom: 83px;
 }
 
 /* ===================
     Enter part end
+===================== */
+
+/* ===================
+    container part end
+===================== */
+#cautions .titel {
+  margin-bottom: 109px;
+}
+
+#cautions .entry-list {
+  font-family: HiraKakuPro;
+  font-size: 16pt;
+  line-height: 20pt;
+  border: 3px solid black;
+  margin-bottom: 53px;
+  position: relative;
+  padding-right: 68px;
+  padding-top: 60px;
+  padding-bottom: 38px;
+  padding-left: 38px;
+  -webkit-box-shadow: 0px 0px 13px 0px rgba(179, 179, 179, 0.7);
+  -moz-box-shadow: 0px 0px 13px 0px rgba(179, 179, 179, 0.7);
+  box-shadow: 0px 0px 13px 0px rgba(179, 179, 179, 0.7);
+}
+
+#cautions .entry-list li {
+  font-family: HiraKakuPro;
+  margin-bottom: 40px;
+  margin-left: 50px;
+  position: relative;
+}
+#cautions .entry-list p {
+  font-size: 16px;
+  line-height: 40pt;
+}
+#cautions .entry-list .top-heading {
+  background-color: #e7458a;
+  padding: 18px 20px;
+}
+#cautions .entry-list .top-heading mark {
+  color: #ffff;
+}
+#cautions .top-heading .uniq {
+  width: 400px;
+}
+#cautions .button {
+  margin-top: 80px;
+  margin-bottom: 83px;
+}
+
+/* ===================
+    container part end
+===================== */
+
+/* ===================
+  information part start
+===================== */
+#information picture {
+  text-align: center;
+  margin: 0 auto;
+}
+#information picture img {
+  margin-bottom: 27px;
+}
+#information .box-info {
+  text-align: center;
+  background-color: #ffff;
+  border: 3px solid black;
+  padding-top: 54px;
+  padding-bottom: 80px;
+}
+#information .box-info {
+  margin: 80px 0;
+}
+#information .box-info p {
+  font-size: 16pt;
+  font-family: HiraKakuPro;
+  line-height: 30pt;
+  font-weight: 400;
+}
+#information .uniq {
+  margin-bottom: 42px;
+}
+/* ===================
+  information part end
+===================== */
+/* ===================
+  footer part start
+===================== */
+footer p {
+  font-size: 15px;
+  line-height: 33pt;
+  font-family: HiraKakuPro;
+}
+/* ===================
+  footer part end
 ===================== */
