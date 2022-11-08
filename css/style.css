@@ -3,7 +3,7 @@
   padding: 0;
 }
 .container {
-  max-width: 868px;
+  max-width: 876px;
   margin: 0 auto;
   padding: 0 20px;
 }
@@ -30,7 +30,7 @@ mark {
 }
 @font-face {
   font-family: HiraKakuPro;
-  src: url(../font/Hira\ Kaku\ Pro\ W6.otf);
+  src: url(../font//HiraKakuPro-W6.otf);
 }
 @font-face {
   font-family: futura;
@@ -58,7 +58,7 @@ html body {
 }
 .titel {
   background-color: black;
-  padding: 58px 0;
+  height: 200pt;
   text-align: center;
   color: #ffff;
   font-family: HiraKakuPro;
@@ -95,7 +95,7 @@ html body {
   -moz-box-shadow: 5px 5px 0px 0px rgba(179, 179, 179, 0.75);
 }
 .top-heading h2 {
-  font-size: 18px;
+  font-size: 18pt;
 }
 /* common part end */
 
@@ -117,7 +117,6 @@ html body {
 }
 #banner h2 {
   padding-top: 249px;
-  width: 770px;
   margin: 0 auto;
   font-family: HiraginoKaku;
   font-size: 32pt;
@@ -153,10 +152,10 @@ html body {
     love part start
 ===================== */
 #love picture {
-  margin-top: 76px;
+  margin-top: 80pt;
   display: flex;
   justify-content: center;
-  margin-bottom: 43px;
+  margin-bottom: 45pt;
 }
 #love h3 {
   font-size: 24pt;
@@ -165,7 +164,7 @@ html body {
   width: 100%;
   margin: 0 auto;
   font-family: HiraKakuStd;
-  margin-bottom: 43px;
+  margin-bottom: 45pt;
 }
 #love .h-box {
   margin-bottom: 43px;
@@ -199,11 +198,11 @@ html body {
   text-align: center;
 }
 #love .item .span {
-  font-size: 16pt;
+  font-size: 14pt;
 }
 #love .button {
-  margin-top: 82px;
-  margin-bottom: 85px;
+  margin-top: 80pt;
+  margin-bottom: 80pt;
 }
 
 /* ===================
@@ -215,12 +214,12 @@ html body {
 ===================== */
 
 #about .youtube {
-  margin-top: 78px;
+  margin-top: 80pt;
   background-color: #b3b3b3;
   height: 530px;
 }
 #about .details {
-  margin: 50px 0;
+  margin: 50pt 0;
 }
 
 #about .details p {
@@ -265,7 +264,7 @@ html body {
 }
 #about .item .h span {
   background-color: #fbcfd0;
-  font-size: 37px;
+  font-size: 30pt;
 }
 #about .item picture img {
   display: block;
@@ -282,8 +281,8 @@ html body {
   left: 0;
 }
 #about .button {
-  margin-top: 78px;
-  margin-bottom: 80px;
+  margin-top: 80pt;
+  margin-bottom: 80pt;
 }
 /* ===================
     About part end
@@ -291,21 +290,22 @@ html body {
 /* ===================
     Entery part start
 ===================== */
-#entry {
-  padding-bottom: 80px;
-}
+
 #entry .entry-list {
   font-family: HiraKakuPro;
   font-size: 16px;
   line-height: 20pt;
   border: 3px solid rgba(179, 179, 179, 0.592);
-  margin-top: 109px;
+  margin-top: 80pt;
   padding-top: 68px;
   position: relative;
   padding-bottom: 20px;
   -webkit-box-shadow: 0px 0px 13px 0px rgba(179, 179, 179, 0.7);
   -moz-box-shadow: 0px 0px 13px 0px rgba(179, 179, 179, 0.7);
   box-shadow: 0px 0px 13px 0px rgba(179, 179, 179, 0.7);
+}
+#entry .entry-list .unm {
+  margin-top: 54px !important;
 }
 
 #entry .entry-list li {
@@ -341,7 +341,7 @@ html body {
 #entry .item-all .item {
   text-align: center;
   border: 2pt solid black;
-  margin-top: 70px;
+  margin-top: 54px;
   position: relative;
   width: 277px;
   padding-bottom: 32px;
@@ -385,8 +385,11 @@ html body {
   left: 12px;
 }
 #entry .button {
-  margin-top: 80px;
-  margin-bottom: 83px;
+  margin-top: 80pt;
+  margin-bottom: 80pt;
+}
+#entry .mobile {
+  display: none;
 }
 
 /* ===================
@@ -405,7 +408,7 @@ html body {
   font-size: 16pt;
   line-height: 20pt;
   border: 3px solid black;
-  margin-bottom: 53px;
+  margin-bottom: 54px;
   position: relative;
   padding-right: 68px;
   padding-top: 60px;
@@ -423,12 +426,11 @@ html body {
   position: relative;
 }
 #cautions .entry-list p {
-  font-size: 16px;
+  font-size: 16pt;
   line-height: 40pt;
 }
 #cautions .entry-list .top-heading {
   background-color: #e7458a;
-  padding: 18px 20px;
 }
 #cautions .entry-list .top-heading mark {
   color: #ffff;
@@ -437,8 +439,8 @@ html body {
   width: 400px;
 }
 #cautions .button {
-  margin-top: 80px;
-  margin-bottom: 83px;
+  margin-top: 40pt;
+  margin-bottom: 80pt;
 }
 
 /* ===================
