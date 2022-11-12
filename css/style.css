@@ -192,6 +192,9 @@ html body {
   justify-content: center;
   align-items: center;
   flex-direction: column;
+  -webkit-box-shadow: 6px 0px 5px 0px rgba(0,0,0,0.57);
+-moz-box-shadow: 6px 0px 5px 0px rgba(0,0,0,0.57);
+box-shadow: 6px 0px 5px 0px rgba(0,0,0,0.57);
 }
 #love .item p {
   font-family: HiraKakuStd;
@@ -292,6 +295,7 @@ html body {
 
 #entry .entry-list {
   font-family: HiraKakuPro;
+  background-color: #ffffff;
   font-size: 16px;
   line-height: 20pt;
   border: 2px solid black;
@@ -305,6 +309,7 @@ html body {
 }
 #entry .entry-listes {
   font-family: HiraKakuPro;
+  background-color: #ffffff;
   font-size: 16px;
   line-height: 20pt;
   border: 2px solid black;
@@ -377,6 +382,7 @@ html body {
   background-color: ;
 }
 #entry .item-all .item {
+  background-color: #ffffff;
   text-align: center;
   border: 2pt solid black;
   margin-top: 54px;
@@ -445,6 +451,7 @@ html body {
 }
 
 #cautions .entry-list {
+  background-color: #ffffff;
   font-family: HiraKakuPro;
   font-size: 16pt;
   line-height: 20pt;
