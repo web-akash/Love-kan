@@ -18,7 +18,7 @@ p {
   margin-bottom: 0;
 }
 mark {
-  background-color: #fbcfd0;
+
 }
 @font-face {
   font-family: HiraKakuStd;
@@ -52,7 +52,7 @@ html body {
 }
 .button span {
   font-size: 24pt;
-  background-color: #fbcfd0;
+  color: #ffffff;
   font-family: HirakakuPro;
   font-weight: 600;
 }
@@ -70,14 +70,12 @@ html body {
 .titel h2 {
   font-size: 46pt;
   line-height: 80pt;
-  background-color: #fbcfd0;
   display: inline-block;
 }
 .titel p {
   margin-top: 10px;
   display: inline-block;
   font-size: 16pt;
-  background-color: #fbcfd0;
 }
 .top-heading {
   position: absolute;
@@ -227,7 +225,6 @@ html body {
   line-height: 40pt;
   font-family: HiraKakuPro;
   display: inline;
-  background-color: #fbcfd0;
 }
 .all-item {
   display: flex;
@@ -263,7 +260,6 @@ html body {
   left: 0;
 }
 #about .item .h span {
-  background-color: #fbcfd0;
   font-size: 30pt;
 }
 #about .item picture img {
@@ -273,6 +269,7 @@ html body {
   width: 359px;
   background-color: #e7458a;
   padding: 24px 0;
+  color: #ffffff;
   text-align: center;
   font-size: 20pt;
   font-family: HiraKakuPro;
@@ -324,13 +321,14 @@ html body {
   left: 0;
   border: 1px solid #b3b3b399;
   content: "";
+  color: #000000;
   width: 93%;
 }
 #entry .entry-list li span {
   margin-right: 23px;
 }
 #entry .entry-list li:nth-child(odd) mark {
-  color: #e7458a;
+  color: #000000;
 }
 #entry .entry-list li:nth-child(odd) span {
   color: #e7458a;
