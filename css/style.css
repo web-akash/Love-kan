@@ -192,9 +192,9 @@ html body {
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  -webkit-box-shadow: 6px 0px 5px 0px rgba(0,0,0,0.57);
--moz-box-shadow: 6px 0px 5px 0px rgba(0,0,0,0.57);
-box-shadow: 6px 0px 5px 0px rgba(0,0,0,0.57);
+  -webkit-box-shadow: 6px 0px 5px 0px rgba(0, 0, 0, 0.57);
+  -moz-box-shadow: 6px 0px 5px 0px rgba(0, 0, 0, 0.57);
+  box-shadow: 6px 0px 5px 0px rgba(0, 0, 0, 0.57);
 }
 #love .item p {
   font-family: HiraKakuStd;
